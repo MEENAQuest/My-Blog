@@ -1,0 +1,38 @@
+body{
+    font-family: 'Lucida Sans';
+    background-color: #ddd;
+}
+.main{
+    padding: 0 40px;
+}
+.header{
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 25px 0;
+}
+.header h2{
+    letter-spacing: 6px;
+    color: red;
+}
+.nav{
+    display: flex;
+}
+.nav a{
+    color: black;
+    font-size: 20px;
+    padding: 0 25px;
+    text-decoration: none;
+}
+.nav li{
+    list-style-type: none;
+}
+.carousel img{
+    max-height: 450px;
+}
+.carousel-caption h2{
+    font-size: 40px;
+}
+.carousel-caption p{
+    font-size: 26px;
+}
